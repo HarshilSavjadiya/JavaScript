@@ -1,0 +1,70 @@
+@font-face {
+ font-family: Righteous-Regular;
+ src: url(./Font/Righteous-Regular.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: Manrope-ExtraBold;
+ src: url(./Font/Manrope-ExtraBold.ttf) format('truetype');
+}
+
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body{
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.login-body{
+ display: flex;
+ flex-direction: column;
+ box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+ padding: 30px;
+ border-radius: 20px;
+}
+
+label{
+ font-size: 20px;
+ margin: 10px 0px;
+ font-family: Manrope-ExtraBold;
+}
+
+input{
+ width: 80%;
+ margin: 10px 0px;
+ outline: none;
+ border: none;
+ border-bottom: 1px solid black ;
+}
+
+.pas-bar{
+ margin: 2px 0px 30px 0px ;
+}
+
+#togglebtn{
+ width: 30%;
+}
+
+#password{
+ width: 50%;
+}
+
+button{
+ width: 100%;
+}
+
+input button{
+    color: darkred;
+}
+
+h1{
+ margin-bottom: 20px;
+ font-family: Righteous-Regular;
+}
